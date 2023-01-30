@@ -1,0 +1,52 @@
+﻿<Window x:Class="WpfAppMatchingAnimal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppMatchingAnimal"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="mainGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="185*"/>
+            <ColumnDefinition Width="185*"/>
+            <ColumnDefinition Width="185*"/>
+            <ColumnDefinition Width="185*"/>
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="94*"/>
+            <RowDefinition Height="94*"/>
+            <RowDefinition Height="94*"/>
+            <RowDefinition Height="94*"/>
+
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,38,0,0" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" Grid.Row="1" FontSize="36" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Center" Margin="84,0,0,0" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" Grid.Row="1" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="59,0,0,0" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Margin="72,0,0,0" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Margin="55,10,0,0" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Center" Margin="92,10,0,0" Grid.Row="2" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="0,24,0,0" Grid.Row="2" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Margin="47,0,0,0" Grid.Row="1" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" TextAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Grid.Row="2" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" Height="123" RenderTransformOrigin="0.5,0.5" FontSize="36" Width="0">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="-1"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Margin="58,10,0,0" Grid.Row="2" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Margin="64,10,0,0" Grid.Row="1" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Margin="75,10,0,0" Grid.Row="2" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock HorizontalAlignment="Center" Margin="92,10,0,0" Grid.Row="3" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="1" HorizontalAlignment="Center" Margin="92,35,0,0" Grid.Row="3" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="2" HorizontalAlignment="Center" Margin="0,10,0,0" Grid.Row="3" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36"/>
+        <TextBlock Grid.Column="3" HorizontalAlignment="Center" Margin="0,7,0,0" Grid.Row="3" TextWrapping="Wrap" Text="?" VerticalAlignment="Center" FontSize="36"/>
+
+    </Grid>
+</Window>
